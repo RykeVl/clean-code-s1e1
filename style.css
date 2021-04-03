@@ -5,30 +5,30 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.banner {
+header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.banner img {
+header img {
     width: 100%;
 }
 
-.banner .info {
+header .info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-    .banner {
+    header {
         text-align: center;
     }
 
 }
 
-.hero {
+section {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -110,10 +110,6 @@ label[for="new-task"] {
 
 #new-task {
     width: 318px;
-}
-
-p>button:hover {
-    color: #0fc57c;
 }
 
 /* Task list */
